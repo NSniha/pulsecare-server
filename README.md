@@ -6,8 +6,8 @@ Authentication is handled using **JWT**, and data is stored in **MongoDB Atlas**
 ---
 
 ## 🔗 Live Links
-- **API Base URL:** (add after deploy)
-- **Client Live Site:** (add after deploy)
+- **API Base URL:** https://pulsecare-server.onrender.com
+- **Client Live Site:** https://pulsecare-client.netlify.app/
 
 ---
 
@@ -53,7 +53,7 @@ Create a `.env` file in the `server/` directory using `.env.example` as a refere
 ### `.env` example
 ```env
 PORT=5000
-CLIENT_URL=http://localhost:5173
+CLIENT_URL=https://pulsecare-client.netlify.app/
 
 MONGODB_URI=YOUR_MONGODB_URI
 JWT_SECRET=YOUR_LONG_RANDOM_SECRET
